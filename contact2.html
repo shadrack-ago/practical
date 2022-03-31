@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<style>
+.a{
+text-align:right;
+}
+</style>
+</head>
+<body style="bgcolor:yellow;">
+<div class="a" name"a">
+<h1>
+<a href="home1.html">Home</a>
+<a href="gallery2.html">Gallery</a>
+<a href="Aboutus2.html">About us</a>
+<a href="contact2.html">Contact</a>
+</h1>
+<head>
+<script>
+function validateForm(){
+let x = document.forms["myForm"]
+["fname"].value;
+if(x==""){
+alert("Name must be filled out");
+return false;
+}
+}
+</script>
+</head>
+<body>
+<form name="myForm"
+action="/action_page.php"onsubmit="return validate form()"
+method="post">
+Name:<br><input type="text" name="fname" required>
+<br>
+<form action="/action_page.php">
+<label for="regNo">RegNo:</label>
+<br>
+<input type="text" id="regNo"
+regNo="regNo"><br>
+<form action="/action_page.php">
+<label for="phoneno">PhoneNo:</label>
+<br>
+<input type="string" id="phoneno"
+phoneno="phoneno"><br>
+<form action="/action_page.php">
+<label for="brief description">Brief description:</label>
+<br>
+<textarea id="briefdescription"name="briefdescription"
+rows="4"cols="50">
+</textarea><br>
+Gender;
+<select>
+<option>Male</option>
+<option>Female</option>
+</select><br>
+<input type="submit" value="Submit">
+</form>
+</body>
+<html>

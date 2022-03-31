@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+<head>
+<style>
+div.a{
+text-align:right;
+}
+</style>
+</head>
+<div class="a">
+<h1>
+<a href="home.html">Home</a>
+<a href="gallery.html">Gallery</a>
+<a href="about us.html">About us</a>
+<a href="contact.html">Contact</a>
+</h1>
+</style>
+</head>
+<body bgcolor="yellow">
+</div>
+</body>
+</html>
