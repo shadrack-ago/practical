@@ -1,0 +1,19 @@
+body {
+    background-color: antiquewhite;
+}
+h1 {
+    color: brown;
+      font-size: large;
+      font-style: italic;
+      font-weight: bold;
+}
+p {
+    text-decoration-color: brown;
+    transform: rotateY(90deg);
+    transform-origin: top left;
+
+}  
+table, th,td {
+    border: 1px solid black;
+    
+}
